@@ -1,35 +1,70 @@
 
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#111329">
   <meta name="description" content="Launchpad temporary service notice.">
+
   <title>Important Service Update | Launchpad</title>
+
+  <!-- Redirect protection -->
+  <script>
+    (function () {
+      const correctURL = "https://www.launchpadhome.online/";
+
+      if (
+        window.location.hostname !== "www.launchpadhome.online" ||
+        window.location.protocol !== "https:" ||
+        window.location.pathname !== "/"
+      ) {
+        window.location.replace(correctURL);
+      }
+    })();
+  </script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
+
   <div class="glow glow-left"></div>
   <div class="glow glow-right"></div>
 
   <header class="header">
+
     <div class="brand">
-      <img src="https://i.postimg.cc/HnJVBpRt/c1554aee-62ee-4cab-b32d-6d2c1de0b28c.png"
-           alt="Launchpad logo">
+
+      <img
+        src="https://i.postimg.cc/HnJVBpRt/c1554aee-62ee-4cab-b32d-6d2c1de0b28c.png"
+        alt="Launchpad logo"
+        draggable="false"
+        oncontextmenu="return false"
+        ondragstart="return false"
+        onselectstart="return false"
+        style="user-select:none; -webkit-user-drag:none;"
+      >
+
     </div>
 
     <span class="tag">
       <span class="tag-dot"></span>
       IMPORTANT SERVICE NOTICE
     </span>
+
   </header>
 
   <main>
+
     <section class="panel">
 
       <div class="warning-icon" aria-hidden="true">!</div>
@@ -55,11 +90,13 @@
       <div class="rule"></div>
 
       <!-- Funds reassurance section -->
+
       <div class="info funds-safe">
 
         <div class="info-icon">✓</div>
 
         <div>
+
           <h2>Your funds are our priority. Please don't worry.</h2>
 
           <p>
@@ -68,6 +105,7 @@
             and working to provide accurate updates. Please retain your
             transaction references until your payment status is confirmed.
           </p>
+
         </div>
 
       </div>
@@ -75,45 +113,59 @@
       <div class="steps">
 
         <article class="step">
+
           <span>01</span>
+
           <div>
             <h3>Please check this page regularly</h3>
+
             <p>
               Visit this page regularly for the latest service updates.
             </p>
           </div>
+
         </article>
 
         <article class="step">
+
           <span>02</span>
+
           <div>
             <h3>Avoid duplicate payments</h3>
+
             <p>
               Please avoid repeating payments while a transaction
               is pending or its status is unclear.
             </p>
           </div>
+
         </article>
 
         <article class="step">
+
           <span>03</span>
+
           <div>
             <h3>We will keep you informed</h3>
+
             <p>
               Please stay patient while our team works towards
               restoring normal services.
             </p>
           </div>
+
         </article>
 
       </div>
 
       <!-- Apology section -->
+
       <div class="apology">
 
         <div class="apology-mark">♥</div>
 
         <div>
+
           <h3>We sincerely apologize for the inconvenience.</h3>
 
           <p>
@@ -121,14 +173,17 @@
             continued trust. We are working hard to get things
             back to normal as soon as possible.
           </p>
+
         </div>
 
       </div>
 
       <div class="actions">
+
         <button id="refreshButton" type="button">
           <span>↻</span> Refresh this page
         </button>
+
       </div>
 
       <p class="thanks">
